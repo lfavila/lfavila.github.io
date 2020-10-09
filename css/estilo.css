@@ -1,5 +1,25 @@
 @charset "utf-8";
 
-body{
+#home nav{
+    text-align: center;
+    padding: 20px;
+}
+nav ul{
+    list-style: none;
+    margin:auto;
+}
+nav ul li{
+    display: inline;
+    padding: 20px;
+    margin: 5px 10px;
+}
+#sobre{
     background-color: aqua;
+    overflow: hidden;
+}
+#foto{
+    float: right;
+}
+#habilidades{
+    clear: both;
 }
