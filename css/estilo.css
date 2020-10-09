@@ -4,7 +4,7 @@
     text-align: center;
     padding: 20px;
 }
-nav ul{
+.lista{
     list-style: none;
     margin:auto;
 }
@@ -14,12 +14,17 @@ nav ul li{
     margin: 5px 10px;
 }
 #sobre{
-    background-color: aqua;
     overflow: hidden;
 }
 #foto{
     float: right;
+    margin-right: 20px;
+    position: relative;
+    top: -50px;
 }
 #habilidades{
     clear: both;
+}
+footer{
+    text-align: center;
 }
