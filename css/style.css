@@ -61,17 +61,10 @@ h1,h2,h3,h4,h5,h6{
 }
 
 h1{
-<<<<<<< HEAD
     font-size: 20px;
 }
 h2{
     font-size: 14px;
-=======
-    font-size: 2em;
-}
-h2{
-    font-size: 1.6em;
->>>>>>> 97d3a9bfe39257ae42a839433f5be42ae189aae7
 }
 
 a:link{
@@ -94,10 +87,7 @@ a:active{
 #logo{
     width: 260px;
     background-color: aqua;
-<<<<<<< HEAD
     font-size: 20px;
-=======
->>>>>>> 97d3a9bfe39257ae42a839433f5be42ae189aae7
 }
 #menu{
     float: right;
