@@ -3,107 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="script/progress-bar.js"></script>
     <title>Portifólio</title>
 </head>
 <body>
-    <header>
-        <h1 id="logo">Luís Felipe Avila</h1>
-        <nav id="menu" role="navigation" >
-            <ul>
-                <a href="#inicio"><li>Início</li></a>
-                <a href="#sobre"><li>Sobre</li></a>
-                <a href="#habilidades"><li>Habilidades</li></a>
-                <a href="#portfolio"><li>Portfólio</li></a>
-            </ul>
-        </nav>
-        <section id="sobre">
-            <img id="foto" src="imagens/eu.jpg" width="300px" alt="Luís Felipe Avila">
-            <div>
-                <h2>Estudante de Desenvolvimento Web</h2>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots 
-                in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
-                Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked 
-                up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and 
-                going through the cites of the word in classical literature, discovered the undoubtable 
-                source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum 
-                et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book 
-                is a treatise on the theory of ethics, very popular during the Renaissance. The first 
-                line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-                </p>
+    <header id="inicio">
+        <div style="position: fixed; width: 100%;">
+            <h1 id="logo"><a href="#">Luís Felipe Avila</a></h1>
+            <nav id="menu" role="navigation">
                 <ul>
-                    <a href="#"><li>Instagram</li></a>
-                    <a href="#"><li>Twitter</li></a>
-                    <a href="#"><li>Linkedin</li></a>
-                    <a href="#"><li>GitHub</li></a>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
                 </ul>
-            </div>
-        </section>
+            </nav>
+        </div>
+        <div id="banner">
+            <span><p>Olá, sou um <strong>Tryber!</strong></p>
+            <p>Estou <em>evoluindo minhas habilidades como <strong>Desenvolvedor Web.</strong></em></p></span>
+        </div>
     </header>
-    <section id="habilidades">
-        <h2>Minhas habilidades</h2>
-        <p>HTML5 <br/>
-        <meter value="8" min="0" max="10">2 out of 10</meter></p>
-        <p>CSS3 <br/>
-        <meter value="6" min="0" max="10">2 out of 10</meter></p>
-        <p>JavaScript <br/>
-        <meter value="5" min="0" max="10">2 out of 10</meter></p>
-        <p>Shell Script <br/>
-        <meter value="3" min="0" max="10">2 out of 10</meter></p>
-        <p>Git/GitHub <br/>
-        <meter value="3" min="0" max="10">2 out of 10</meter></p>
+    <section class="interiorSecao" id="sobre">
+        <img id="foto" src="imagens/eu.jpg" width="300px" alt="Luís Felipe Avila">
+        <div>
+            <h2>A Caminhada Rumo ao Full Stack</h2>
+            <p>Conhecer mais intimamente as tecnologias já é algo comum, ou ao menos 
+                deveria ser. Eu lembro da minha felicidade ao ter meu primeiro 386 e 
+                poder apenas digitar textos naquelas telas pretas com letras verdes. Era
+                sensacional! A Tecnologia foi evoluindo, e eu cheguei a ter um 486, mas 
+                o melhor da época eu tive no final dos anos 90, um AMD K6-II. Era o melhor 
+                computador aqui da rua. Muito joguei Fifa 98 e Need for Speed II, dentre outros.
+                Meu primeiro contato com o HTML veio aos 16 anos, através de um colega de 
+                escola, na mesma época que escolhi a música como caminho. Eu ainda lembro
+                da emoção de ouvir o discador se conectando com a internet. Muita coisa aconteceu
+                de lá pra cá, mas a ligação que há entre mim e a tecnologia sempre se manteve
+                muito forte. Agora, aos 33 anos de idade, esse gaúcho de Porto Alegre, RS, 
+                escolheu a Trybe como caminho para se aprofundar nessa relação antiga que promete bons frutos na área do desenvolvimento web.  
+            </p><br><br>
+            <div id="menu-sobre">
+                <a href="#">Instagram</a>
+                &nbsp;&nbsp;&nbsp;<a href="#">Twitter</a>
+                &nbsp;&nbsp;&nbsp;<a href="#">Linkedin</a>
+                &nbsp;&nbsp;&nbsp;<a href="#">GitHub</a>
+            </div>
+        </div>
     </section>
-    <section id="portfolio">
-        <h2>Meu Portfólio</h2>
+    <section class="interiorSecao" id="habilidades">
+        <h2>Habilidades</h2>
+        <p>HTML5 <br/>
+        <div id="progress-bar-html" class="progress-bar"></div></p>
+        <p>CSS3 <br/>
+        <div id="progress-bar-css" class="progress-bar"></div></p>
+        <p>JavaScript <br/>
+        <div id="progress-bar-js" class="progress-bar"></div></p>
+        <p>Shell Script <br/>
+        <div id="progress-bar-shell" class="progress-bar"></div></p>
+        <p>Git/GitHub <br/>
+        <div id="progress-bar-git" class="progress-bar"></div></p>
+        <p>Guitarra <br/>
+        <div id="progress-bar-guitarra" class="progress-bar"></div></p>
+        <p>Vídeo Game <br/>
+        <div id="progress-bar-game" class="progress-bar"></div></p>
+        <p>Futebol <br/>
+        <div id="progress-bar-futebol" class="progress-bar"></div></p>
+        <p>Passar Café <br/>
+        <div id="progress-bar-cafe" class="progress-bar"></div></p>
+    </section>
+    <section class="interiorSecao" id="portfolio">
+        <h2>Portfólio</h2>
         <div>
             <a href="#"><img src="" title="" width="200px" height="200px" /></a>
-            <h3>Trampo 1</h3>
+            <h3>Em Construção</h3>
             <p>
-            There is no one who loves pain itself, who seeks after it and wants 
-            o have it, simply because it is pain.
+            Em breve aqui, um novo projeto.
             </p>
         </div>
         <div>
-            <img src="#" title="" width="200px" height="200px" />
-            <h3>Trampo 2</h3>
+            <a href="#"><img src="" title="" width="200px" height="200px" /></a>
+            <h3>Em Construção</h3>
             <p>
-            There is no one who loves pain itself, who seeks after it and wants 
-            o have it, simply because it is pain.
+                Em breve aqui, um novo projeto.
             </p>
         </div>
         <div>
-            <img src="#" title="#" width="200px" height="200px" />
-            <h3>Trampo 3</h3>
-            <p>
-            There is no one who loves pain itself, who seeks after it and wants 
-            o have it, simply because it is pain.
+            <a href="#"><img src="" title="#" width="200px" height="200px" /></a>
+            <h3>Em Construção</h3>
+            <p>Em breve aqui, um novo projeto.
             </p>
         </div>
         <div>
-            <img src="#" title="#" width="200px" height="200px" />
-            <h3>Trampo 4</h3>
-            <p>
-            There is no one who loves pain itself, who seeks after it and wants 
-            o have it, simply because it is pain.
+            <a href="#"><img src="" title="#" width="200px" height="200px" /></a>
+            <h3>Em Construção</h3>
+            <p>Em breve aqui, um novo projeto.
             </p>
         </div>
         <div>
-            <img src="#" title="#" width="200px" height="200px" />
-            <h3>Trampo 5</h3>
-            <p>
-            There is no one who loves pain itself, who seeks after it and wants 
-            o have it, simply because it is pain.
+            <a href="#"><img src="" title="#" width="200px" height="200px" /></a>
+            <h3>Em Construção</h3>
+            <p>Em breve aqui, um novo projeto.
             </p>
         </div>
         <div>
-            <img src="#" title="#" width="200px" height="200px" />
-            <h3>Trampo 6</h3>
-            <p>
-            There is no one who loves pain itself, who seeks after it and wants 
-            o have it, simply because it is pain.
+            <a href="#"><img src="" title="#" width="200px" height="200px" /></a>
+            <h3>Em Construção</h3>
+            <p>Em breve aqui, um novo projeto.
             </p>
         </div>
     </section>
-    <footer>
+    <footer style="background-color:burlywood;" class="interiorSecao">
+        <ul>
+            <a href="#"><li>Instagram</li></a>
+            <a href="#"><li>Twitter</li></a>
+            <a href="#"><li>Linkedin</li></a>
+            <a href="#"><li>GitHub</li></a>
+        </ul><br />
         <p>Desenvolvido por <a href="https://www.instagram.com/l.f.avila/">Luis Felipe Avila</a></p>
     </footer>
 </body>
