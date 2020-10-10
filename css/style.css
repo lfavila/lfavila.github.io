@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Estilo Base*/
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+    margin: 10px;
+}
+
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 1.6em;
+}
+
+a:link{
+    color: darkslategray;
+    text-decoration: none;
+}
+a:visited{
+    color: darkslategray;
+}
+a:focus{
+    color: brown;
+}
+a:hover{
+    color: aquamarine;
+}
+a:active{
+    color: blueviolet;
+}
+
+#logo{
+    width: 260px;
+    background-color: aqua;
+}
+#menu{
+    float: right;
+    margin: 10px 10px 0 0;
+}
+#menu ul li{
+    display: inline;
+    position: relative;
+    padding:5px 15px;
+    top: -45px;
+    background-color: aqua;
+}
+#foto{
+    float: left;
+    margin: 0 20px 0 10px;
+    border-radius: 80px;
+}
+#sobre{
+    clear: both;
+    margin-left: 10px;
+}
+#sobre div{
+    width: 95%;
+}
+#sobre div h2{
+    margin-bottom: 20px;
+}
+#sobre ul{
+    margin-top: 30px;
+    margin-bottom:6%;
+}
+#sobre ul li{
+    display: inline;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: cornflowerblue;    
+}
+#habilidades{
+    clear: both;
+    background-color: darkslategrey;
+    padding: 20px 0 40px 0;
+}
+#habilidades p{
+    margin-left: 40px;
+    font-size: 2em;
+    padding-top: 10px;
+}
+meter{
+    width: 90%;
+}
+#portfolio{
+    
+}
+#portfolio div{
+    float: left;
+    width: 230px;
+    margin:20px 40px;
+}
+footer{
+    clear: both;
+    text-align: center;
+    margin-top: 30px;
+}
