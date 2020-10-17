@@ -21,6 +21,7 @@ header {
   border-radius: 10px;
   color: #fff;
   font-weight: bolder;
+  text-shadow: 5px 5px 8px black;
 }
 header h1{
     font-size: 3em;
@@ -39,7 +40,7 @@ header a{
     font-weight: bolder;
 }
 header a:hover{
-    color: azure;
+    color: cyan;
     border: 2px solid cyan;
     padding:5px;
 }
