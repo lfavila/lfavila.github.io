@@ -1,124 +1,116 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt_BR">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css" />
-    <script type="text/javascript" src="script/progress-bar.js"></script>
-    <title>Portifólio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <script src="script/script.js"></script>
+    <title>Página de Códigos | Luís Felipe Avila</title>
 </head>
 <body>
-    <header id="inicio">
-        <div style="position: fixed; width: 100%;">
-            <h1 id="logo"><a href="#">Luís Felipe Avila</a></h1>
-            <nav id="menu" role="navigation">
-                <ul>
-                    <li><a href="#inicio">Início</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#habilidades">Habilidades</a></li>
-                    <li><a href="#portfolio">Portfólio</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div id="banner">
-            <span><p>Olá, sou um <strong>Tryber!</strong></p>
-            <p>Estou <em>evoluindo minhas habilidades como <strong>Desenvolvedor Web.</strong></em></p></span>
-        </div>
-    </header>
-    <section class="interiorSecao" id="sobre">
-        <img id="foto" src="imagens/eu.jpg" width="300px" alt="Luís Felipe Avila">
+    <header id="header">
         <div>
-            <h2>A Caminhada Rumo ao Full Stack</h2>
-            <p>Conhecer mais intimamente as tecnologias já é algo comum, ou ao menos 
-                deveria ser. Eu lembro da minha felicidade ao ter meu primeiro 386 e 
-                poder apenas digitar textos naquelas telas pretas com letras verdes. Era
-                sensacional! A Tecnologia foi evoluindo, e eu cheguei a ter um 486, mas 
-                o melhor da época eu tive no final dos anos 90, um AMD K6-II. Era o melhor 
-                computador aqui da rua. Muito joguei Fifa 98 e Need for Speed II, dentre outros.
-                Meu primeiro contato com o HTML veio aos 16 anos, através de um colega de 
-                escola, na mesma época que escolhi a música como caminho. Eu ainda lembro
-                da emoção de ouvir o discador se conectando com a internet. Muita coisa aconteceu
-                de lá pra cá, mas a ligação que há entre mim e a tecnologia sempre se manteve
-                muito forte. Agora, aos 33 anos de idade, esse gaúcho de Porto Alegre, RS, 
-                escolheu a Trybe como caminho para se aprofundar nessa relação antiga que promete bons frutos na área do desenvolvimento web.  
-            </p><br><br>
-            <div id="menu-sobre">
-                <a href="#">Instagram</a>
-                &nbsp;&nbsp;&nbsp;<a href="#">Twitter</a>
-                &nbsp;&nbsp;&nbsp;<a href="#">Linkedin</a>
-                &nbsp;&nbsp;&nbsp;<a href="#">GitHub</a>
-            </div>
+            <p class="fundo-texto-topo">A<br> Fantástica</p>
+            <h1 class="fundo-texto-topo"> &lt;Página de Códigos/&gt; </h1>
+            <p class="fundo-texto-topo">de<br>Luís Felipe Avila</p>
         </div>
-    </section>
-    <section class="interiorSecao" id="habilidades">
-        <h2>Habilidades</h2>
-        <p>HTML5 <br/>
-        <div id="progress-bar-html" class="progress-bar"></div></p>
-        <p>CSS3 <br/>
-        <div id="progress-bar-css" class="progress-bar"></div></p>
-        <p>JavaScript <br/>
-        <div id="progress-bar-js" class="progress-bar"></div></p>
-        <p>Shell Script <br/>
-        <div id="progress-bar-shell" class="progress-bar"></div></p>
-        <p>Git/GitHub <br/>
-        <div id="progress-bar-git" class="progress-bar"></div></p>
-        <p>Guitarra <br/>
-        <div id="progress-bar-guitarra" class="progress-bar"></div></p>
-        <p>Vídeo Game <br/>
-        <div id="progress-bar-game" class="progress-bar"></div></p>
-        <p>Futebol <br/>
-        <div id="progress-bar-futebol" class="progress-bar"></div></p>
-        <p>Passar Café <br/>
-        <div id="progress-bar-cafe" class="progress-bar"></div></p>
-    </section>
-    <section class="interiorSecao" id="portfolio">
-        <h2>Portfólio</h2>
-        <div>
-            <a href="#"><img src="" title="" width="200px" height="200px" /></a>
-            <h3>Em Construção</h3>
-            <p>
-            Em breve aqui, um novo projeto.
+        <nav>
+            <ul>
+                <li><a href="#">&lt;Início/&gt;</a></li>
+                <li><a href="#">&lt;HTML5/&gt;</a></li>
+                <li><a href="#">&lt;CSS3/&gt;</a></li>
+                <li><a href="#">&lt;JavaScript/&gt;</a></li>
+            </ul>
+        </nav>
+    </header>  
+      <div class="container">
+        <main class="colunaEsquerda">
+          <article class="preview">
+            <h2>BLOG COM SEMÂNTICA HTML5</h2>
+            <h5>Marcar o conteúdo do meu blog usando HTML5</h5>
+            <p>18 de Outubro de 2020</p>
+            <img src="./imagens/html5.png" width="650px" height="300px">
+            <p>Perceba que o navegador não é capaz de se comunicar com a gente
+                através de nosso idioma nativo, ele usa as tags para compreender 
+                nosso conteúdo. Cada tag tem um significado próprio, e entender esses
+                conceitos faz com que seu conteúdo faça total sentido para o navegador.
+                Existem muitas tags, mas um blog simples não precisa de todas elas. Vamos
+                aprender as principais tags para se manter um blog.
             </p>
-        </div>
-        <div>
-            <a href="#"><img src="" title="" width="200px" height="200px" /></a>
-            <h3>Em Construção</h3>
-            <p>
-                Em breve aqui, um novo projeto.
+            <a href="#">Leia mais</a>
+          </article>
+          <article class="preview">
+            <h2>LAYOUT DE DUAS COLUNAS</h2>
+            <h5>Blog com sessão principal, barra lateral, cabeçalho e rodapé</h5>
+            <p>18 de Outubro de 2020</p>
+            <img src="./imagens/css3.png" width="650px" height="300px">
+            <p>Usando o CSS, podemos manipular a posição dos elementos em uma página HTML.
+                Quando colocamos dois ou mais elementos em um elemento conteiner, podemos
+                distribuí-los proporcionalmente nos espaços. Para esse exemplo faremos dois
+                conteiners flutuarem dentro de um conteiner pai, para distribuir o conteúdo 
+                do site como o de um blog padrão.
             </p>
-        </div>
-        <div>
-            <a href="#"><img src="" title="#" width="200px" height="200px" /></a>
-            <h3>Em Construção</h3>
-            <p>Em breve aqui, um novo projeto.
+            <a href="#">Leia mais</a>
+          </article>
+          <article class="preview">
+            <h2>SCROLL COM EVENTO ONCLICK PELO JAVASCRIPT</h2>
+            <h5>Faça com que o blog reaja ao clique dos usuários</h5>
+            <p>18 de Outubro de 2020</p>
+            <img src="./imagens/javascript.png" width="650px" height="300px">
+            <p>O JavaScript representa a interatividade com o usuário. Um simples clique
+                do mouse na tela é capaz de apagar todo o conteúdo do site instantaneamente. Mas não
+                se assuste, bastaria um F5 para tudo voltar ao normal. E, por favor, não faça isso, 
+                não é nada agradável. Nesse exemplo, o evento onclick responde com uma função 
+                JavaScript que rola a tela até o topo da página com o efeito scroll.
             </p>
-        </div>
-        <div>
-            <a href="#"><img src="" title="#" width="200px" height="200px" /></a>
-            <h3>Em Construção</h3>
-            <p>Em breve aqui, um novo projeto.
-            </p>
-        </div>
-        <div>
-            <a href="#"><img src="" title="#" width="200px" height="200px" /></a>
-            <h3>Em Construção</h3>
-            <p>Em breve aqui, um novo projeto.
-            </p>
-        </div>
-        <div>
-            <a href="#"><img src="" title="#" width="200px" height="200px" /></a>
-            <h3>Em Construção</h3>
-            <p>Em breve aqui, um novo projeto.
-            </p>
-        </div>
-    </section>
-    <footer style="background-color:burlywood;" class="interiorSecao">
-        <ul>
-            <a href="#"><li>Instagram</li></a>
-            <a href="#"><li>Twitter</li></a>
-            <a href="#"><li>Linkedin</li></a>
-            <a href="#"><li>GitHub</li></a>
-        </ul><br />
-        <p>Desenvolvido por <a href="https://www.instagram.com/l.f.avila/">Luis Felipe Avila</a></p>
-    </footer>
+            <a href="#">Leia mais</a>
+          </article>
+        </main>
+        <aside class="colunaDireita">
+          <section class="preview">
+            <h2>Sobre mim</h2>
+            <img src="./imagens/eu.jpg" width="150px" />
+            <p>Meu primeiro contato com o HTML veio aos 16 anos, isso era na mesma época em que vibrava com a emoção de ouvir o discador no meu AMD K6-II se conectando com a internet. Muita coisa aconteceu de lá pra cá, mas a ligação que há entre mim e a tecnologia sempre se manteve muito forte. Agora, aos 33 anos de idade, esse gaúcho de Porto Alegre, RS, nas idas e vindas da vida, escolheu a <a href="https://www.betrybe.com/">Trybe</a> como caminho para se aprofundar nessa relação antiga que promete bons frutos na área do desenvolvimento web.</p>
+          </section>
+          <section class="preview">
+            <h2>Habilida<wbr>des</h2>
+            <p>HTML5 <br/>
+            <div id="progress-bar-html" class="progress-bar"></div></p>
+            <p>CSS3 <br/>
+            <div id="progress-bar-css" class="progress-bar"></div></p>
+            <p>JavaScript <br/>
+            <div id="progress-bar-js" class="progress-bar"></div></p>
+            <p>Shell Script <br/>
+            <div id="progress-bar-shell" class="progress-bar"></div></p>
+            <p>Git/GitHub <br/>
+            <div id="progress-bar-git" class="progress-bar"></div></p>
+            <p>Guitarra <br/>
+            <div id="progress-bar-guitarra" class="progress-bar"></div></p>
+            <p>Vídeo Game <br/>
+            <div id="progress-bar-game" class="progress-bar"></div></p>
+            <p>Futebol <br/>
+            <div id="progress-bar-futebol" class="progress-bar"></div></p>
+            <p>Passar Café <br/>
+            <div id="progress-bar-cafe" class="progress-bar"></div></p>
+          </section>
+          <section class="preview icone-redes">
+            <h3>Redes Sociais</h3>
+            <p><a class="instagram" href="https://www.instagram.com/l.f.avila/">Instagram</a></p>
+            <p><a class="github" href="https://github.com/lfavila">GitHub</a></p>
+            <p><a class="linkedin" href="https://www.linkedin.com/in/lfelipeavila/">Linkedin</a></p>
+            <p><a class="twitter" href="https://twitter.com/avilafelipeluis">Twitter</a></p>
+          </section>
+        </aside>
+      </div>
+      
+      <footer>
+        <p>Contato</p>
+        <p>51 99213-5484</p>
+        <a href="mailto:lfelipeavila@outlook.com">lfelipeavila@outlook.com</a>
+        <p>Desenvolvido por <a href="https://www.instagram.com/l.f.avila/">Luís Felipe Avila</a></p>
+        <button id="subir" onclick="subir('#header')">Topo&uarr;</button>
+      </footer>
+
 </body>
 </html>
