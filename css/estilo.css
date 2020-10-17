@@ -31,7 +31,11 @@ a{
     text-decoration: none;
     margin-top:5px;
     color: cornflowerblue;
+    
 
+}
+a:visited{
+    
 }
 
 header a{
@@ -151,8 +155,8 @@ footer {
     font-size: 1.2em;
     float: right;
     position: relative;
-    bottom:40px;
-    left: 10px;
+    bottom:150px;
+    left: 15px;
     cursor: pointer;
 }
 @media screen and (max-width: 800px) {
