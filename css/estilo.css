@@ -159,6 +159,11 @@ footer {
     left: 15px;
     cursor: pointer;
 }
+
+#menuP, #sobreA{
+    display:none;
+}
+
 @media screen and (max-width: 800px) {
   .colunaEsquerda,
   .colunaDireita {
